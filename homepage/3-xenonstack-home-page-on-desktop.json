@@ -1,0 +1,207 @@
+{
+  "testId" : "3-xenonstack-home-page-on-desktop",
+  "name" : "Xenonstack Home page on desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "https://www.xenonstack.com/ 1280x1024",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check xenonstack.gspec --include \"all, desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: xenonstack.gspec included tags: all,desktop",
+          "status" : "info",
+          "time" : 1698771125766,
+          "includedTags" : [ "all", "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "xenonstack.gspec",
+              "lineNumber" : 10
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 100% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "100% [1252px]",
+                  "realDistance" : "100% [1252px]"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "height 92px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "92px",
+                  "realDistance" : "92px"
+                } ],
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "Nav",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "width is 93% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "Nav",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "Nav",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "93% [1164px]",
+                  "realDistance" : "93% [1172px]"
+                } ],
+                "highlight" : [ "Nav" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "height 40px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "width  148px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "148px",
+                  "realDistance" : "148px"
+                } ],
+                "highlight" : [ "logo" ]
+              } ]
+            }, {
+              "name" : "Banner",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width is 43% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "Banner",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "Banner",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "43% [538px]",
+                  "realDistance" : "43% [540px]"
+                } ],
+                "highlight" : [ "Banner" ]
+              } ]
+            }, {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width is 100% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "footer",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "footer",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "100% [1252px]",
+                  "realDistance" : "100% [1252px]"
+                } ],
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "Nav" : {
+              "area" : [ 40, 0, 1172, 92 ]
+            },
+            "footer" : {
+              "area" : [ 0, 7532, 1252, 963 ]
+            },
+            "Banner" : {
+              "area" : [ 40, 220, 540, 340 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1252, 92 ]
+            },
+            "logo" : {
+              "area" : [ 40, 27, 148, 40 ]
+            }
+          },
+          "screenshot" : "layout-3-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1698771119780,
+        "type" : "node"
+      } ],
+      "time" : 1698771100037,
+      "type" : "node"
+    } ]
+  }
+}

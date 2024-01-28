@@ -1,0 +1,156 @@
+@objects
+    header              #xs-header
+    Nav         css     nav.xenonstack-header  
+    logo        css     .xenonstack-logo
+    xenonlogo   css     .mobile-header-inner a img
+    Banner      css     .banner-content-wrapper
+    mobilemenu  css     .menu-icon
+    footer              footer
+    social      css     .xenonstack-footer-socialmedia-wrapper
+= Main section =
+    @on desktop
+        header:
+            width 90% of screen/width
+            height 92px
+        Nav:
+            width is 90% of screen/width
+        logo:
+            height 40px
+            width  148px
+        Banner:
+            width is 43% of screen/width
+        footer:
+            width is 100% of screen/width
+        social:
+
+
+    @on mobile
+        header:
+            width 99% of screen/width
+            height 70px
+        Nav:
+            absent
+        xenonlogo:
+            width 140px
+            height 50px
+        mobilemenu:
+            visible
+        Banner:
+            width is 84% of screen/width
+
+
+    @on tablet
+        header:
+            width 100% of screen/width
+            height 70px
+        Nav:
+            absent
+        xenonlogo:
+            width 140px
+            height 50px
+        mobilemenu:
+            visible
+        Banner:
+            width is 91% of screen/width
+    @on Iphone_XR
+        header:
+            width 430 to 435px
+            height 70px
+        Nav:
+            absent
+        xenonlogo:
+            width 140px
+            height 50px
+        mobilemenu:
+            visible
+        Banner:
+            width is 80 to 85% of screen/width
+        social:
+            width 350 to 370px
+            height 165px
+    @on S20_ultra
+        header:
+            width 98 to 100% of screen/width
+            height 70px
+        Nav:
+            absent
+        xenonlogo:
+            width 140px
+            height 50px
+        mobilemenu:
+            visible
+        Banner:
+            width is 80 to 85% of screen/width
+        social:
+            width 350 to 370px
+            height 165px
+    @on Pixel_5
+        header:
+            width 95 to 100% of screen/width
+            height 70px
+        Nav:
+            absent
+        xenonlogo:
+            width 140px
+            height 50px
+        mobilemenu:
+            visible
+        Banner:
+            width is 360 to 370px
+        social:
+            width 350 to 370px
+            height 165px 
+    @on iPad_mini
+            header:
+                width 90 to 100% of screen/width
+                height 70px
+            Nav:
+                absent
+            xenonlogo:
+                width 140px
+                height 50px
+            mobilemenu:
+                visible
+            Banner:
+                width is 90 to 95% of screen/width
+            social:
+                width 650 to 665px
+                height 165px
+    @on iPad_air
+            header:
+                width 90 to 100% of screen/width
+                height 70px
+            Nav:
+                absent
+            xenonlogo:
+                width 200px
+                height 50px
+            mobilemenu:
+                visible
+            Banner:
+                width is 45 to 50% of screen/width
+            social:
+                width 710 to 715px
+                height 120px
+    @on iPad_pro
+            header:
+                width 90 to 100% of screen/width
+                height 70px
+            Nav:
+                absent
+            xenonlogo:
+                width 200px
+                height 50px
+            mobilemenu:
+                visible
+            Banner:
+                width is 45 to 50% of screen/width
+            social:
+                width 910 to 920px
+                height 120px
+   
+    
+
+
+   
+    

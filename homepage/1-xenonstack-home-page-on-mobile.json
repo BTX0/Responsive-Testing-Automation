@@ -1,0 +1,180 @@
+{
+  "testId" : "1-xenonstack-home-page-on-mobile",
+  "name" : "Xenonstack Home page on mobile",
+  "report" : {
+    "nodes" : [ {
+      "name" : "https://www.xenonstack.com/ 414x736",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check xenonstack.gspec --include \"all, mobile\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: xenonstack.gspec included tags: all,mobile",
+          "status" : "info",
+          "time" : 1698771082388,
+          "includedTags" : [ "all", "mobile" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "xenonstack.gspec",
+              "lineNumber" : 10
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "width 99% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "99% [429px]",
+                  "realDistance" : "99% [433px]"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "height 70px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "70px",
+                  "realDistance" : "70px"
+                } ],
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "Nav",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "xenonlogo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "width 140px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "xenonlogo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "xenonlogo",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "140px",
+                  "realDistance" : "140px"
+                } ],
+                "highlight" : [ "xenonlogo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "xenonlogo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "xenonlogo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "xenonlogo" ]
+              } ]
+            }, {
+              "name" : "mobilemenu",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "visible",
+                "highlight" : [ "mobilemenu" ]
+              } ]
+            }, {
+              "name" : "Banner",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "width is 84% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "Banner",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "Banner",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "84% [364px]",
+                  "realDistance" : "84% [368px]"
+                } ],
+                "highlight" : [ "Banner" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "mobilemenu" : {
+              "area" : [ 373, 25, 20, 20 ]
+            },
+            "Banner" : {
+              "area" : [ 40, 130, 368, 266 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 433, 70 ]
+            },
+            "xenonlogo" : {
+              "area" : [ 149, 10, 140, 50 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1698771078912,
+        "type" : "node"
+      } ],
+      "time" : 1698771054773,
+      "type" : "node"
+    } ]
+  }
+}

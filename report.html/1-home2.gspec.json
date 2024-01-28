@@ -1,0 +1,124 @@
+{
+  "testId" : "1-home2.gspec",
+  "name" : "home2.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  home2.gspec --url https://www.xenonstack.com/ --size 1200x800 --htmlreport report.html -Dwebdriver.chrome.driver=C:\\Users\\vijay\\AppData\\Roaming\\npm\\node_modules\\galenframework-cli\\node_modules\\chromedriver\\lib\\chromedriver\\chromedriver.exe -Dwebdriver.gecko.driver=C:\\Users\\vijay\\AppData\\Roaming\\npm\\node_modules\\galenframework-cli\\node_modules\\geckodriver\\geckodriver.exe -Djna.nosys=true",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: home2.gspec included tags: ",
+          "status" : "info",
+          "time" : 1698504364609,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "home2.gspec",
+              "lineNumber" : 4
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home2.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "height 92px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "92px",
+                  "realDistance" : "92px"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home2.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 1172px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1172px",
+                  "realDistance" : "1172px"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home2.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "inside screen 0px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "header", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home2.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "width 100% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "100% [1172px]",
+                  "realDistance" : "100% [1172px]"
+                } ],
+                "highlight" : [ "header" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header" : {
+              "area" : [ 0, 0, 1172, 92 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1172, 8617 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1698504359417,
+        "type" : "node"
+      } ],
+      "time" : 1698504334292,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "testId" : "6-xenonstack-home-page-on-pixel-5",
+  "name" : "Xenonstack Home page on Pixel 5",
+  "report" : {
+    "nodes" : [ {
+      "name" : "https://www.xenonstack.com/ 393x851",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check xenonstack.gspec --include \"Pixel_5\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: xenonstack.gspec included tags: Pixel_5",
+          "status" : "info",
+          "time" : 1698771188483,
+          "includedTags" : [ "Pixel_5" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "xenonstack.gspec",
+              "lineNumber" : 10
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "width 95 to 100% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "95 to 100% [412 to 434px]",
+                  "realDistance" : "99% [433px]"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 90
+                },
+                "name" : "height 70px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "70px",
+                  "realDistance" : "70px"
+                } ],
+                "highlight" : [ "header" ]
+              } ]
+            }, {
+              "name" : "Nav",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 92
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "xenonlogo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 94
+                },
+                "name" : "width 140px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "xenonlogo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "xenonlogo",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "140px",
+                  "realDistance" : "140px"
+                } ],
+                "highlight" : [ "xenonlogo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 95
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "xenonlogo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "xenonlogo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "xenonlogo" ]
+              } ]
+            }, {
+              "name" : "mobilemenu",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 97
+                },
+                "name" : "visible",
+                "highlight" : [ "mobilemenu" ]
+              } ]
+            }, {
+              "name" : "Banner",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 99
+                },
+                "name" : "width is 360 to 370px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "Banner",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "Banner",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "360 to 370px",
+                  "realDistance" : "368px"
+                } ],
+                "highlight" : [ "Banner" ]
+              } ]
+            }, {
+              "name" : "social",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 101
+                },
+                "name" : "width 350 to 370px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "social",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "social",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "350 to 370px",
+                  "realDistance" : "353px"
+                } ],
+                "highlight" : [ "social" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "xenonstack.gspec",
+                  "lineNumber" : 102
+                },
+                "name" : "height 165px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "social",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "social",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "165px",
+                  "realDistance" : "165px"
+                } ],
+                "highlight" : [ "social" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "mobilemenu" : {
+              "area" : [ 373, 25, 20, 20 ]
+            },
+            "social" : {
+              "area" : [ 40, 11371, 353, 165 ]
+            },
+            "Banner" : {
+              "area" : [ 40, 130, 368, 266 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 433, 70 ]
+            },
+            "xenonlogo" : {
+              "area" : [ 149, 10, 140, 50 ]
+            }
+          },
+          "screenshot" : "layout-6-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1698771185755,
+        "type" : "node"
+      } ],
+      "time" : 1698771171750,
+      "type" : "node"
+    } ]
+  }
+}

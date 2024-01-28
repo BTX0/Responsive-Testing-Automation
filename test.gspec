@@ -1,0 +1,62 @@
+@objects
+    header              #xs-header
+    Nav         css     nav.xenonstack-header  
+    logo        css     .xenonstack-logo
+    xenonlogo   css     .mobile-header-inner a img
+    Banner      css     .banner-content-wrapper
+    mobilemenu  css     .menu-icon
+    footer              footer
+    social      css     .xenonstack-footer-socialmedia-wrapper
+
+
+= Main section =
+    @on iPad_mini
+            header:
+                width 90 to 100% of screen/width
+                height 70px
+            Nav:
+                absent
+            xenonlogo:
+                width 140px
+                height 50px
+            mobilemenu:
+                visible
+            Banner:
+                width is 90 to 95% of screen/width
+            social:
+                width 650 to 665px
+                height 165px
+    @on iPad_air
+            header:
+                width 90 to 100% of screen/width
+                height 70px
+            Nav:
+                absent
+            xenonlogo:
+                width 200px
+                height 50px
+            mobilemenu:
+                visible
+            Banner:
+                width is 45 to 50% of screen/width
+            social:
+                width 710 to 715px
+                height 120px
+    @on iPad_pro
+            header:
+                width 90 to 100% of screen/width
+                height 70px
+            Nav:
+                absent
+            xenonlogo:
+                width 200px
+                height 50px
+            mobilemenu:
+                visible
+            Banner:
+                width is 45 to 50% of screen/width
+            social:
+                width 910 to 920px
+                height 120px
+   
+    

@@ -1,0 +1,22 @@
+@@ Table deviceList_A
+    | deviceName  | tags        | size      |
+    | mobile      | all, mobile | 414x736   |
+    | tablet      | all, tablet | 768x1024  |
+    | desktop     | all, desktop| 1280x1024 |
+
+@@ table deviceList_B
+    | deviceName        | tags      | size     |
+    | Iphone XR         | Iphone_XR | 414x896  |
+    | Samsung S20 ultra | S20_ultra | 412x915  |
+    | Pixel 5           | Pixel_5   | 393x851  |
+    
+@@ table deviceList_C
+    | deviceName        | tags      | size     |
+    | iPad mini         | iPad_mini | 768x1024 |
+    | iPad pro          | iPad_pro  | 1024x1366|
+    | iPad Air          | iPad_air  | 820x1080 |
+
+@@ Parameterized using deviceList_A, deviceList_B, deviceList_C
+Xenonstack Home page on ${deviceName}   
+    https://www.xenonstack.com/ ${size}
+        check xenonstack.gspec --include "${tags}"

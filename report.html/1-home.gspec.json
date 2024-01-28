@@ -1,0 +1,105 @@
+{
+  "testId" : "1-home.gspec",
+  "name" : "home.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  home.gspec --url https://www.xenonstack.com/ --size 1200x800 --htmlreport report.html -Dwebdriver.chrome.driver=C:\\Users\\vijay\\AppData\\Roaming\\npm\\node_modules\\galenframework-cli\\node_modules\\chromedriver\\lib\\chromedriver\\chromedriver.exe -Dwebdriver.gecko.driver=C:\\Users\\vijay\\AppData\\Roaming\\npm\\node_modules\\galenframework-cli\\node_modules\\geckodriver\\geckodriver.exe -Djna.nosys=true",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: home.gspec included tags: ",
+          "status" : "error",
+          "time" : 1698502287963,
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "home.gspec",
+              "lineNumber" : 3
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 5
+                },
+                "name" : "inside screen 0px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "header", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "width 100% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "100% [1172px]",
+                  "realDistance" : "100% [1172px]"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "home.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "height 80px",
+                "errors" : [ "\"header\" height is 92px instead of 80px" ],
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "80px",
+                  "realDistance" : "92px"
+                } ],
+                "highlight" : [ "header" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header" : {
+              "area" : [ 0, 0, 1172, 92 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1172, 8617 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1698502282327,
+        "type" : "node"
+      } ],
+      "time" : 1698502264114,
+      "type" : "node"
+    } ]
+  }
+}

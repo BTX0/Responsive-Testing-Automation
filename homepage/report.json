@@ -1,0 +1,129 @@
+{
+  "tests" : [ {
+    "name" : "Xenonstack Home page on mobile",
+    "startedAt" : 1698771054771,
+    "endedAt" : 1698771085004,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 7,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 7
+    },
+    "testId" : "1-xenonstack-home-page-on-mobile",
+    "duration" : 30233,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on tablet",
+    "startedAt" : 1698771085004,
+    "endedAt" : 1698771100037,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 7,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 7
+    },
+    "testId" : "2-xenonstack-home-page-on-tablet",
+    "duration" : 15033,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on desktop",
+    "startedAt" : 1698771100037,
+    "endedAt" : 1698771130375,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 7,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 7
+    },
+    "testId" : "3-xenonstack-home-page-on-desktop",
+    "duration" : 30338,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on Iphone XR",
+    "startedAt" : 1698771130376,
+    "endedAt" : 1698771151804,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 9
+    },
+    "testId" : "4-xenonstack-home-page-on-iphone-xr",
+    "duration" : 21428,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on Samsung S20 ultra",
+    "startedAt" : 1698771151804,
+    "endedAt" : 1698771171749,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 9
+    },
+    "testId" : "5-xenonstack-home-page-on-samsung-s20-ultra",
+    "duration" : 19945,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on Pixel 5",
+    "startedAt" : 1698771171749,
+    "endedAt" : 1698771193186,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 9
+    },
+    "testId" : "6-xenonstack-home-page-on-pixel-5",
+    "duration" : 21437,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on iPad mini",
+    "startedAt" : 1698771193186,
+    "endedAt" : 1698771214062,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 9
+    },
+    "testId" : "7-xenonstack-home-page-on-ipad-mini",
+    "duration" : 20876,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on iPad pro",
+    "startedAt" : 1698771214062,
+    "endedAt" : 1698771240193,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 9
+    },
+    "testId" : "8-xenonstack-home-page-on-ipad-pro",
+    "duration" : 26131,
+    "failed" : false
+  }, {
+    "name" : "Xenonstack Home page on iPad Air",
+    "startedAt" : 1698771240193,
+    "endedAt" : 1698771264029,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 9,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 9
+    },
+    "testId" : "9-xenonstack-home-page-on-ipad-air",
+    "duration" : 23836,
+    "failed" : false
+  } ]
+}

@@ -1,0 +1,29 @@
+{
+  "testId" : "3-xenonstack-home-page-on-tablet",
+  "name" : "Xenonstack Home page on tablet",
+  "report" : {
+    "nodes" : [ {
+      "name" : "https://www.xenonstack.com/ 768x1024",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check xenonstack.gspec --include \"all, tablet\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: xenonstack.gspec included tags: all,tablet",
+          "status" : "info",
+          "time" : 1698587679577,
+          "includedTags" : [ "all", "tablet" ],
+          "excludedTags" : [ ],
+          "sections" : [ ],
+          "objects" : { },
+          "screenshot" : "layout-3-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1698587678105,
+        "type" : "node"
+      } ],
+      "time" : 1698587667914,
+      "type" : "node"
+    } ]
+  }
+}
